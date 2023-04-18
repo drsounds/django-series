@@ -1,2 +1,2 @@
 [build-system]
-requires = ["setuptools @ git+https://github.com/drsounds/django-series.git@main"]
+requires = ["setuptools ~= 58.0"]
