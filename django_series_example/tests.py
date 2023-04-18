@@ -24,7 +24,7 @@ class VideoStreamStatisticsTestCase(TestCase):
         self.start = datetime(2022, 12, 1)
         self.end = datetime(2022, 12, 31)
         
-        now = start
+        now = self.start
  
         Stream.objects.create(
             node_type='video',
